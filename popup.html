@@ -1,0 +1,15 @@
+
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Correcteur LLM</title>
+<style>
+body{font-family:system-ui;margin:0;padding:12px;width:340px;height:420px;display:flex;flex-direction:column;gap:8px}
+textarea{width:100%;resize:vertical}
+#input{flex:1 1 50%}
+#output{flex:1 1 50%}
+button{padding:6px 12px}
+</style></head><body>
+<textarea id="input" placeholder="Collez ou tapez votre texte ici"></textarea>
+<button id="corriger">Corriger</button>
+<textarea id="output" readonly placeholder="Le texte corrigé apparaîtra ici"></textarea>
+<button id="copier" style="display:none;">Copier</button>
+<script type="module" src="popup.js"></script>
+</body></html>

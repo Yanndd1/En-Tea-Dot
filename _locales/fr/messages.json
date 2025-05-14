@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Correcteur LLM",
+    "description": "Nom"
+  },
+  "extDescription": {
+    "message": "Propose un texte corrigé via GPT‑4o",
+    "description": "Description"
+  }
+}
